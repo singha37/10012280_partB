@@ -14,12 +14,12 @@ let answer = "";
 
     switch (degrees) {
         case 'F': 
-        answer = `${(parseFloat(num1) * (9 / 5) + 32)} Celsius` ;
+        answer = `${(parseFloat(num1) * (9 / 5) + 32)} Fahrenheit` ;
         break;             
         
 
         case 'C':
-        answer = `${(parseFloat(num1) - 32) * (5 / 9)} Fahrenheit` ;
+        answer = `${(parseFloat(num1) - 32) * (5 / 9)} Celsius` ;
         break;
 
         default:
